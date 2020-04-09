@@ -16,7 +16,7 @@ class Client:
         text.set("欢迎使用PDF翻译器，请选择PDF文件")
         Label(f, fg="#00FA92", bg='#3C3F41', font="Courier, 20", textvariable=text).place(x=120, y=10, anchor=NW)
 
-        bt_file = Button(f, bg='#3C3F41', fg='#000000', text="文件", font="Arial, 18",
+        bt_file = Button(f, bg='#3C3F41', fg='#000000', text="选择文件", font="Arial, 18",
                          command=lambda: self.file())
         bt_file.place(x=300, y=200, anchor=CENTER)
         tk.mainloop()
